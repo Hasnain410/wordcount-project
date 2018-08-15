@@ -1,0 +1,19 @@
+<h1>This is HTML word count </h1>
+
+<form action="{% url 'count' %}">
+
+  <textarea cols="60" rows="40" name="fulltext"></textarea>
+
+  <br>
+
+  <input type=submit value="count!"/>
+
+</form>
+
+<a href= {% url 'about' %}>About</a>
+
+
+<!--{{hithere}} -->
+
+<!-- the hithere code is pulling from the views.py code. it is printing out the value
+of the key. -->
